@@ -1,0 +1,728 @@
+/* Aplicando a imagem de fundo */
+ body.home-page {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://static.vecteezy.com/ti/fotos-gratis/p2/8726424-arvore-paisagem-bela-arvore-por-do-sol-perto-do-rio-e-lindo-nascer-ou-por-do-sol-com-arvore-sozinha-e-sol-ceu-colorido-gratis-foto.JPG');
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Define a cor do texto como branca para contraste */
+}
+
+.container {
+    max-width: 800px; /* Limita a largura do texto */
+    margin: 0 auto; /* Centraliza o conteúdo na página */
+    padding: 20px; /* Adiciona espaço interno */
+    
+}
+
+h1 {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.texto-intro {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para melhor legibilidade */
+    padding: 20px; /* Adiciona espaço interno ao parágrafo */
+    border-radius: 10px; /* Bordas arredondadas */
+    line-height: 1.6; /* Aumenta o espaço entre linhas para melhor leitura */
+    color: #f4f4f4; /* Cor do texto para melhor contraste */
+}
+
+footer {
+    position: fixed; bottom: 0; width: 100%; text-align: center;
+    
+}
+
+footer p {
+    margin: 0;
+    color: #f4f4f4;
+}
+body.profile-page {
+    background-color: #f4f4f4; /* Cor de fundo da página de perfil */
+    color: #222; /* Cor do texto na página de perfil */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}
+
+.profile-container {
+    max-width: 400px; 
+    margin: 50px auto; 
+    padding: 20px; 
+    background-color: white; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+}
+
+.profile-image {
+    width: 150px; /* Largura da imagem */
+    height: 150px; /* Altura da imagem */
+    border-radius: 50%; /* Borda arredondada */
+    object-fit: cover; /* Cobre a área da imagem */
+    margin-bottom: 15px; /* Espaço abaixo da imagem */
+}
+
+h1 {
+    margin: 20px 0 10px; 
+    font-size: 24px; 
+}
+
+p {
+    margin: 10px 0; 
+    font-size: 16px; 
+    color: #555; 
+}
+
+.social-links {
+    margin-top: 20px; 
+}
+
+.social-links a {
+    margin: 0 10px; 
+    text-decoration: none; 
+    color: #007bff; /* Cor dos links */
+}
+
+.social-links a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+  
+/* Estilos para a Página de Portfólio */
+
+body.Portfólio {
+    background-color: black; 
+    color: #ffffff; 
+    font-family: Arial, sans-serif; 
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #f0f0f0;
+    text-align: center;
+    border-radius: 5px; /* Arredondar as bordas dos itens */
+    overflow: hidden; /* Para evitar que o conteúdo saia da borda */
+}
+
+.grid-item img {
+    width: 100%; /* Imagem ocupa 100% da largura do grid item */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.grid-item a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: inherit; /* Herda a cor do texto do grid item */
+}
+
+/* Estilos gerais para a página de blog */
+.blog {
+    background-image: url('https://viagemeturismo.abril.com.br/wp-content/uploads/2021/08/10.jpg?quality=70&strip=info&w=928&w=636');
+    background-position: center; /* Centraliza a imagem */
+    background-color: black; /* Fundo da página */
+    color: white; /* Cor do texto */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}
+
+.container {
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilos para a lista de postagens */
+.post-list {
+    list-style-type: none; /* Remove os marcadores padrão da lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+}
+
+.post-item {
+    background-color: #333; /* Fundo dos itens da lista */
+    margin: 15px 0; /* Margem entre os itens */
+    padding: 15px; /* Espaçamento interno dos itens */
+    border-radius: 5px; /* Arredondar as bordas dos itens */
+}
+
+.post-item h2 {
+    margin: 0 0 10px 0; /* Margem do título */
+}
+
+.post-date {
+    font-style: italic; /* Estilo do texto da data */
+    color: #aaa; /* Cor da data */
+}
+
+.post-summary {
+    margin: 10px 0; /* Margem entre resumo e link */
+}
+
+.post-item a {
+    color: #4CAF50; /* Cor do link */
+    text-decoration: none; /* Remove sublinhado do link */
+}
+
+.post-item a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estilos para a página de contato */
+.contato-page {
+    background-color: #f4f4f4; /* Cor de fundo da página de contato */
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Cor de fundo do formulário */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.faq-page {
+    background-color: #f9f9f9; /* Cor de fundo da página FAQ */
+}
+
+.faq-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Cor de fundo da caixa FAQ */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+h1 {
+    text-align: center;
+}
+
+.faq-item {
+    margin: 10px 0; /* Espaçamento entre os itens */
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #eee; /* Cor de fundo do resumo */
+    border-radius: 4px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+summary:hover {
+    background-color: #ddd; /* Cor de fundo ao passar o mouse */
+}
+
+details[open] summary {
+    background-color: #ccc; /* Cor de fundo quando o item está aberto */
+}
+
+details p {
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 4px solid #4CAF50; /* Linha de destaque para a resposta */
+    transition: max-height 0.3s ease; /* Transição suave para a altura */
+}
+/* Estilos da página de login */
+.login-page {
+    background-color: #5e5d5d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc; /* Bordas dos campos de entrada */
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #dfb733;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* Estilizando a página com uma fonte básica e centralizando o conteúdo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container do produto */
+.product-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+/* Imagem do produto */
+.product-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Título do produto */
+.product-title {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+/* Descrição do produto */
+.product-description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Preço do produto */
+.product-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #27ae60;
+    margin-bottom: 20px;
+}
+
+/* Botão de compra */
+.buy-button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-sizing: border-box; /* Aplicando box-sizing ao botão */
+}
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container da lista de tarefas */
+.task-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Estilo do título */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo do campo de entrada para adicionar nova tarefa */
+.task-input {
+    width: calc(100% - 90px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo do botão de adicionar tarefa */
+.task-button {
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo da lista de tarefas */
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilo de cada tarefa */
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Estilo da caixa de seleção (checkbox) */
+.task-checkbox {
+    margin-right: 10px;
+}
+
+/* Estilo dos botões de editar e excluir */
+.edit-button, .delete-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #f39c12;
+    color: white;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    color: white;
+}
+
+/* Aplicando text-decoration quando a tarefa estiver marcada */
+.task-checkbox:checked + label {
+    text-decoration: line-through;
+    color: #999;
+}
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container dos depoimentos */
+.testimonial-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Estilo do título */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilo individual de cada depoimento */
+.testimonial {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* Foto do cliente */
+.testimonial-photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+/* Estilo do texto do depoimento */
+blockquote {
+    font-style: italic; /* Aplicando o estilo requerido */
+    color: #555;
+    margin: 0;
+}
+
+/* Nome do cliente */
+.client-name {
+    font-weight: bold;
+    color: #333;
+    margin-top: 5px;
+}
+
+/* Definindo estilo para a galeria */
+/* Estilo do body para centralizar e dar espaçamento */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Centraliza o título no topo da página */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+/* Estilo do body para centralizar e dar espaçamento */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Centraliza o título no topo da página */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+/* Definindo estilo para a galeria */
+.gallery {
+    display: flex; /* Usa flexbox para alinhar as imagens em uma linha */
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    flex-wrap: wrap; /* Permite que as imagens quebrem para uma nova linha, se necessário */
+    gap: 15px; /* Espaçamento entre as imagens */
+    margin-top: 20px; /* Espaço entre o título e as imagens */
+}
+
+figure {
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+
+.thumbnail {
+    width: 150px; /* Largura fixa para as miniaturas */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; /* Transição suave para o zoom */
+}
+
+.thumbnail:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+/* Estilizando a página de promoções */
+.promo-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+del {
+    color: red; /* Aplicando a cor ao preço original */
+}
+/* Layout flexível para os perfis da equipe */
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.team-member {
+    text-align: center;
+    width: 30%;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+/* Estilizando a contagem regressiva */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.countdown {
+    margin: 20px 0;
+}
+
+.countdown-timer {
+    position: relative;
+    font-size: 2rem;
+    font-weight: bold;
+    display: inline-block;
+    height: 50px; /* altura fixa para permitir animação */
+}
+
+.countdown-number {
+    position: absolute;
+    opacity: 0; /* Esconde os números */
+    animation: countdown-animation 11s infinite; /* Animação de contagem */
+}
+
+.countdown-number:nth-child(1) { animation-delay: 0s; }
+.countdown-number:nth-child(2) { animation-delay: 1s; }
+.countdown-number:nth-child(3) { animation-delay: 2s; }
+.countdown-number:nth-child(4) { animation-delay: 3s; }
+.countdown-number:nth-child(5) { animation-delay: 4s; }
+.countdown-number:nth-child(6) { animation-delay: 5s; }
+.countdown-number:nth-child(7) { animation-delay: 6s; }
+.countdown-number:nth-child(8) { animation-delay: 7s; }
+.countdown-number:nth-child(9) { animation-delay: 8s; }
+.countdown-number:nth-child(10) { animation-delay: 9s; }
+
+@keyframes countdown-animation {
+    0%, 90% { opacity: 0; } /* Mantém invisível */
+    100% { opacity: 1; } /* Mostra a contagem */
+}
+
+.features {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.pre-order-form {
+    text-align: left;
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+/* Estilizando a página de mapa */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.site-map {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.site-map li {
+    margin: 5px 0; /* Adiciona um espaçamento vertical entre os itens */
+}
+
+/* Adiciona o recuo aos itens da sub-lista */
+.site-map li ul {
+    text-indent: 20px; /* Cria um recuo para as subpáginas */
+}
+
+/* Estiliza os links */
+.site-map a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #007bff; /* Cor do texto do link */
+}
+
+.site-map a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}

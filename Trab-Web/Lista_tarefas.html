@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Conectando o arquivo CSS -->
+</head>
+<body>
+
+    <div class="task-container">
+        <h1> Lista de Tarefas Diárias</h1>
+        
+        <form>
+            <!-- Caixa de texto para adicionar nova tarefa -->
+            <input type="text" placeholder="" class="task-input">
+            <!-- Botão para adicionar tarefa -->
+            <button type="submit" class="task-button">Adicionar</button>
+        </form>
+
+        <!-- Lista de tarefas -->
+        <ul class="task-list">
+            <li>
+                <input type="checkbox" class="task-checkbox"> Olhar as reservas
+                <button class="edit-button">Editar</button>
+                <button class="delete-button">Excluir</button>
+            </li>
+            <li>
+                <input type="checkbox" class="task-checkbox"> Limpar os Quartos
+                <button class="edit-button">Editar</button>
+                <button class="delete-button">Excluir</button>
+            </li>
+            <li>
+                <input type="checkbox" class="task-checkbox"> Preparar o Jantar
+                <button class="edit-button">Editar</button>
+                <button class="delete-button">Excluir</button>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
